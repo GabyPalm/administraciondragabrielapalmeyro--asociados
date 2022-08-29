@@ -1,0 +1,114 @@
+/*quienes*/
+.sobre{
+    display: flex;
+    flex-direction: column;
+}
+.sobre-quienes{
+    display: flex;
+    flex-direction: column;
+}
+.sobre-imagenes{
+    display: flex;
+    flex-direction: row;
+}
+.sobre-image{
+    border-radius: 50%;
+    width: 10rem;
+    align-self: center;
+}
+.sobre-textos-soporte{
+    display: none;
+}
+#img-1{
+   margin-left: 30%;
+}
+
+#img-2{
+    display: none;
+}
+
+
+/*servicios*/
+.servicios-cajas{
+    display: flex;
+    flex-direction: column;
+}
+.servicios-items {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+
+}
+
+
+.servicios-items-item-it{
+    color:  #333333;
+    font-size: 1rem ;
+    font-family:'Montserrat', sans-serif;
+    line-height: 1.15rem;
+}
+    .contacto-items-footer-icon{
+    margin-left: 22%;
+
+}
+
+@media screen and (min-width:768px){
+    #img-1{
+        margin-left: 0%;
+     }
+    .contacto-items-footer-icon{
+        margin-left: 31%;
+    } 
+    .servicios-items-item-it{
+        font-size: .8rem ;
+        font-family:'Montserrat', sans-serif;
+        line-height: 1.15rem;
+    } 
+    #first-child{
+        background: url(./imagenes/contab.png)  ;
+        background-size: 25%;
+        background-position: right;
+        background-repeat: no-repeat;
+        align-items: flex-end;
+        margin-right: 10%;
+        vertical-align: middle;
+    
+    }
+    #second-child{
+        background: url(./imagenes/impuesto.png);
+        background-size: 25%;
+        background-position: right;
+        background-repeat: no-repeat;
+        align-items: flex-end;
+        margin-right: 10%;
+    }
+    #third-child{
+        background: url(./imagenes/consult.png) ;
+        background-size: 25%;
+        background-position: right;
+        background-repeat: no-repeat;
+        align-items: flex-end;
+        margin-right: 10%;
+    }
+    #fourth-child{
+        background: url(./imagenes/desarrollo.png) ;
+        background-size: 25%;
+        background-position: right;
+        background-repeat: no-repeat;
+        align-items: flex-end;
+        margin-right: 10%;
+    }
+    #fifth-child{
+        background: url(./imagenes/curso.png) ;
+        background-size: 25%;
+        background-position: right;
+        background-repeat: no-repeat;
+        align-items: flex-end;
+        margin-right: 10%;
+    }
+}
+@media screen and (min-width:1024px){
+    .contacto-items-footer-icon{
+        margin-left: 34%;
+    }      
+}
